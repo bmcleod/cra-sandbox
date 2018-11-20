@@ -5,11 +5,11 @@ import Button from '@material-ui/core/Button';
 
 storiesOf('Button', module)
   .add('with text', () => (
-      <Button
-          variant="outlined"
-          color="primary"
-          onClick={action('clicked')}
-      >
-          Hello Button
-      </Button>
+    <Button
+      variant="outlined"
+      color="primary"
+      onClick={action('clicked')}
+    >
+      Hello Button
+    </Button>
   ));
