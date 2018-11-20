@@ -62,3 +62,8 @@ typings/
 
 # IntelliJ IDEA files
 .idea
+
+# Storybook files
+.cache
+.storybook
+storybook-static
