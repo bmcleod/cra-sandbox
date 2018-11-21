@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        Welcome to React
+        <p>Welcome to React</p>
         <Button type="primary">Primary</Button>
       </Fragment>
     );
