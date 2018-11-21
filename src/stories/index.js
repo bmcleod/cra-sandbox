@@ -6,7 +6,7 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Welcome } from '@storybook/react/demo';
 
-// import 'carbon-components/src/components/button/_button.scss';
+import 'carbon-components/src/components/button/_button.scss';
 import { Button } from 'carbon-components-react';
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
