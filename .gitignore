@@ -65,5 +65,4 @@ typings/
 
 # Storybook files
 .cache
-.storybook
 storybook-static
