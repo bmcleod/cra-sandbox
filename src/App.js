@@ -1,11 +1,13 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+
+import styles from './app.less';
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
+      <div className={styles.red}>
           Welcome to React
-      </Fragment>
+      </div>
     );
   }
 }
