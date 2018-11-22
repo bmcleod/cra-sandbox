@@ -1,3 +1,12 @@
-body {
-  background-color: #cef;
+@import "../node_modules/antd/lib/style/index.less";
+
+// Components
+@import "../node_modules/antd/lib/button/style/index.less";
+
+// Theme overrides
+@import "./theme.less";
+
+// Component overrides
+.button-variant-primary(@color; @background) {
+  box-shadow: 0 5px 20px fade(@background, 50%);
 }

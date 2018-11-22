@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
 
 import styles from './app.less';
 
 class App extends Component {
   render() {
     return (
-      <div className={styles.red}>
-          Welcome to React
+      <div>
+        <p className={styles.red}>Welcome to React</p>
+        <Button type="primary">Hello Button</Button>
       </div>
     );
   }
