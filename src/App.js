@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <p className={styles.red}>Welcome to React</p>
+        <p className={styles.textPrimary}>Welcome to React</p>
         <Button type="primary">Hello Button</Button>
       </div>
     );
