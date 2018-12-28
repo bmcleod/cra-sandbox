@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import styles from './app.less';
+import Toggle from './components/Toggle';
 
 class App extends Component {
   render() {
     return (
-      <div className={styles.red}>
-          Welcome to React
+      <div>
+        <Toggle/>
       </div>
     );
   }
