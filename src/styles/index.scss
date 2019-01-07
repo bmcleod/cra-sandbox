@@ -1,3 +1,9 @@
-@import "variables.scss";
-
+@import "../../node_modules/carbon-components/src/globals/scss/_colors.scss";
+@import "../../node_modules/carbon-components/src/globals/scss/_spacing.scss";
+@import "_variables.scss";
 @import "../../node_modules/carbon-components/src/globals/scss/styles.scss";
+
+
+body {
+  margin: 8px;
+}
