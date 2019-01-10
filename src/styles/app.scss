@@ -1,5 +1,19 @@
+// Ref: https://github.com/uikit/uikit/tree/develop/src/scss/components
 // 1. Your custom variables and variable overwrites.
 $global-link-color: #DA7D02;
+$global-color: teal;
+$global-muted-color: salmon;
+
+// Modal
+$modal-background: rgba(172, 47, 47, 0.6);
+$modal-padding-horizontal: 15px;
+$modal-padding-vertical-s: 50px;
+$modal-dialog-width: 600px;
+$modal-close-padding: 5px;
+
+// Pagination
+$pagination-margin-horizontal: 15px;
+$pagination-item-color:pink;
 
 // 2. Import default variables and available mixins.
 @import "uikit/src/scss/variables-theme.scss";
@@ -9,7 +23,7 @@ $global-link-color: #DA7D02;
 @mixin hook-card() { color: #000; }
 
 @mixin hook-button-default() {
-    color: pink;
+    color: green;
 }
 
 // 4. Import UIkit.
